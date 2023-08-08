@@ -47,3 +47,4 @@ while True:
     
     else:
         print('Operação inválida. Por favor, solicite novamente a opção desejada!')    
+        
