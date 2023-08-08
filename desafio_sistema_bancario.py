@@ -3,7 +3,7 @@ menu = """
 [d] Depositar
 [s] Sacar
 [e] Extrato
-[q] Sair
+[x] Sair
 
 => """
 
@@ -42,7 +42,7 @@ while True:
               print(movimento)
           print(f'Saldo atual: R${saldo: .2f}')   
      
-    elif opcao == 'q':
+    elif opcao == 'x':
         break      
     
     else:
